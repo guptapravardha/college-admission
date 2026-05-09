@@ -27,7 +27,7 @@ $result = mysqli_query($conn,
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>All Students | SUAS Admin</title>
+    <title>All Students | NITM Admin</title>
     <link rel="stylesheet" href="../css/style.css">
 </head>
 <body>

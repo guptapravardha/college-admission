@@ -165,8 +165,8 @@ include 'includes/header.php';
         <div class="sidebar-widget">
             <h3>Help</h3>
             <ul>
-                <li>Call: 0731-2970000</li>
-                <li>Email: info@suas.ac.in</li>
+                <li>Call: 0731-1234500</li>
+                <li>Email: info@NITM.ac.in</li>
                 <li>Mon–Sat: 9AM–5PM</li>
             </ul>
         </div>

@@ -32,7 +32,7 @@ $recent_q = mysqli_query($conn,
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Admin Dashboard | SUAS</title>
+    <title>Admin Dashboard | NITM</title>
     <link rel="stylesheet" href="../css/style.css">
 </head>
 <body>

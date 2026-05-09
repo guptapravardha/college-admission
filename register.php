@@ -1,13 +1,9 @@
 <?php
-// ============================================================
 //  register.php  –  New student registration
-// ============================================================
 require_once 'config.php';
 $page_title = 'Student Registration';
-
 $error   = '';
 $success = '';
-
 if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 
     // Collect and sanitize inputs

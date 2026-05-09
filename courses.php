@@ -17,15 +17,15 @@ foreach ($courses as $c) {
 }
 ?>
 
-<div class="page-banner">Courses Offered at SUAS</div>
+<div class="page-banner">Courses Offered at NITM</div>
 
 <div class="container">
     <div class="main-content">
 
         <h2 class="section-title">Academic Programs 2025–26</h2>
         <p style="font-size:14px; color:#555; margin-bottom:15px;">
-            SUAS offers a range of undergraduate and postgraduate programs designed to meet industry demands.
-            All programs are approved by UGC and affiliated to Symbiosis International (Deemed University).
+            NITM offers a range of undergraduate and postgraduate programs designed to meet industry demands.
+            All programs are approved by UGC and affiliated to Nexora International (Deemed University).
         </p>
 
         <?php foreach ($departments as $dept => $dept_courses): ?>

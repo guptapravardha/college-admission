@@ -8,7 +8,7 @@ include 'includes/header.php';
 ?>
 
 <!-- PAGE BANNER -->
-<div class="page-banner">Home &rsaquo; Welcome to SUAS</div>
+<div class="page-banner">Home &rsaquo; Welcome to NITM</div>
 
 <div class="container">
 
@@ -17,11 +17,11 @@ include 'includes/header.php';
 
         <!-- Welcome Box -->
         <div class="welcome-box">
-            <h2>Welcome to Symbiosis University of Applied Sciences</h2>
+            <h2>Welcome to Nexora Institute of Technology & Management</h2>
             <p>
-                Symbiosis University of Applied Sciences (SUAS), Indore is a forward-looking institution
+                Nexora Institute of Technology & Management (NITM), Indore is a forward-looking institution
                 committed to providing quality technical and management education. Established under the
-                Symbiosis family, SUAS offers industry-aligned programs in Engineering, Management, and Science.
+                Nexora family, NITM offers industry-aligned programs in Engineering, Management, and Science.
             </p>
             <p style="margin-top:10px;">
                 <a href="apply.php" class="btn btn-danger">Apply for Admission 2026–27</a>
@@ -53,19 +53,19 @@ include 'includes/header.php';
         <!-- About Section -->
         <h2 class="section-title">About the University</h2>
         <p style="line-height:1.8; font-size:14px; color:#444;">
-            SUAS is located at Bada Bangarda, Super Corridor, Near the Airport, Indore-453112 – one of the fastest growing
+            NITM is located at Bada Bangarda, Super Corridor, Near the Airport, Indore-453112 – one of the fastest growing
             educational hubs in central India. The university focuses on applied learning, industry
             partnerships, and skill development to prepare students for real-world challenges.
-            It is approved by UGC and affiliated to Symbiosis International (Deemed University), Pune.
+            It is approved by UGC and affiliated to Nexora International (Deemed University), Pune.
         </p>
 
-        <h3 class="sub-title">Why Choose SUAS?</h3>
+        <h3 class="sub-title">Why Choose NITM?</h3>
         <ul style="padding-left:20px; font-size:14px; line-height:2;">
             <li>Industry-integrated curriculum with real projects</li>
             <li>Experienced faculty from industry and academia</li>
             <li>Strong placement support with 100+ recruiters</li>
             <li>Modern campus with labs and library facilities</li>
-            <li>Part of the prestigious Symbiosis family</li>
+            <li>Part of the prestigious Nexora family</li>
         </ul>
 
         <!-- Notice Board -->
@@ -120,8 +120,8 @@ include 'includes/header.php';
         <div class="sidebar-widget">
             <h3>Contact Us</h3>
             <ul>
-                <li>0731-2970000</li>
-                <li>info@suas.ac.in</li>
+                <li>0731-12345</li>
+                <li>info@NITM.ac.in</li>
                 <li>Indore, M.P.</li>
             </ul>
         </div>

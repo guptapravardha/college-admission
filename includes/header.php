@@ -6,7 +6,7 @@
 // ============================================================
 
 // $page_title should be set before including this file
-$title = isset($page_title) ? $page_title . ' | SUAS' : 'SUAS - College Admission';
+$title = isset($page_title) ? $page_title . ' | NITM' : 'NITM - College Admission';
 
 // Detect if we are inside a subfolder (like admin/)
 $prefix = (isset($in_subfolder) && $in_subfolder) ? '../' : '';
@@ -42,21 +42,28 @@ $prefix = (isset($in_subfolder) && $in_subfolder) ? '../' : '';
 
 <!-- HEADER -->
 <header>
-    <div style="width:80px;height:80px;border-radius:50%;border:3px solid #fff;
-                background:#fff;display:flex;align-items:center;justify-content:center;
-                color:#003580;font-weight:bold;font-size:13px;text-align:center;flex-shrink:0;">
-        SUAS
+    <div><img src="includes/nitmlogo.png" 
+     alt="NITM Logo"
+     style="
+        width:80px;
+        height:80px;
+        border-radius:50%;
+        background:#fff;
+        object-fit:cover;
+        padding:5px;
+        flex-shrink:0;
+     ">
     </div>
     <div class="header-text">
-        <h1>Symbiosis University of Applied Sciences</h1>
-        <p>Approved by UGC &nbsp;|&nbsp; Indore, Madhya Pradesh &nbsp;|&nbsp; Affiliated to Symbiosis International (Deemed University)</p>
+        <h1>Nexora Institute of Technology & Management</h1>
+        <p>Approved by UGC &nbsp;|&nbsp; Indore, Madhya Pradesh &nbsp;|&nbsp; Affiliated to Nexora International (Deemed University)</p>
     </div>
 </header>
 
 <!-- NAVIGATION -->
 <nav>
     <ul>
-        <li><a href="<?= $prefix ?>index.php"   class="<?= basename($_SERVER['PHP_SELF'])=='index.php'   ? 'active' : '' ?>">Home</a></li>
+        <li><a href="<?= $prefix ?>index.php"    class="<?= basename($_SERVER['PHP_SELF'])=='index.php'   ? 'active' : '' ?>">Home</a></li>
         <li><a href="<?= $prefix ?>courses.php"  class="<?= basename($_SERVER['PHP_SELF'])=='courses.php'  ? 'active' : '' ?>">Courses</a></li>
         <li><a href="<?= $prefix ?>apply.php"    class="<?= basename($_SERVER['PHP_SELF'])=='apply.php'    ? 'active' : '' ?>">Apply Online</a></li>
         <li><a href="<?= $prefix ?>status.php"   class="<?= basename($_SERVER['PHP_SELF'])=='status.php'   ? 'active' : '' ?>">Check Status</a></li>

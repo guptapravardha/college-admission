@@ -31,17 +31,17 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Admin Login | SUAS</title>
+    <title>Admin Login | NITM</title>
     <link rel="stylesheet" href="../css/style.css">
 </head>
 <body style="background:#eef2f8;">
 <header>
     <div style="width:60px;height:60px;border-radius:50%;border:3px solid #fff;background:#fff;
                 display:flex;align-items:center;justify-content:center;color:#003580;font-weight:bold;">
-        SUAS
+        NITM
     </div>
     <div class="header-text">
-        <h1>SUAS Admin Panel</h1>
+        <h1>NITM Admin Panel</h1>
         <p>College Admission Management System</p>
     </div>
 </header>

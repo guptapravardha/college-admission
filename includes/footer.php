@@ -8,12 +8,12 @@
 <footer>
     <div class="footer-grid">
         <div class="footer-col" style="flex:2;">
-            <h4>Symbiosis University of Applied Sciences</h4>
+            <h4>Nexora Institute of Technology & Management</h4>
             <p>
                 Bada Bangarda, Super Corridor, Near Airport,<br>
                 Indore – 453 331, Madhya Pradesh, India<br>
                 Phone: 0731-1234567<br>
-                Email: info@suas.ac.in
+                Email: info@NITM.ac.in
             </p>
         </div>
         <div class="footer-col">
@@ -39,7 +39,7 @@
         </div>
     </div>
     <div class="footer-bottom">
-        &copy; <?= date('Y') ?> Symbiosis University of Applied Sciences, Indore. All Rights Reserved.
+        &copy; <?= date('Y') ?> Nexora Institute of Technology & Management, Indore. All Rights Reserved.
     </div>
 </footer>
 

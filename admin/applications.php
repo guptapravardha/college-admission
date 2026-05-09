@@ -59,7 +59,7 @@ $apps_q = mysqli_query($conn,
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Manage Applications | SUAS Admin</title>
+    <title>Manage Applications | NITM Admin</title>
     <link rel="stylesheet" href="../css/style.css">
 </head>
 <body>
@@ -134,7 +134,7 @@ $apps_q = mysqli_query($conn,
             <input type="hidden" name="app_id" value="<?= $view_app['application_id'] ?>">
             <div class="form-group">
                 <label>Remarks (optional) – visible to student</label>
-                <textarea name="remarks" placeholder="e.g. Documents verified, Welcome to SUAS"></textarea>
+                <textarea name="remarks" placeholder="e.g. Documents verified, Welcome to NITM"></textarea>
             </div>
             <div style="display:flex; gap:10px;">
                 <button type="submit" name="action" value="Approved" class="btn btn-success">
