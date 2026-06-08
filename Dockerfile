@@ -1,6 +1,13 @@
 FROM php:8.2-cli
 
-RUN docker-php-ext-install mysqli
+RUN apt-get update && apt-get install -y \
+    libpng-dev \
+    libjpeg-dev \
+    libonig-dev \
+    zip \
+    unzip
+
+RUN docker-php-ext-install mysqli pdo pdo_mysql
 
 WORKDIR /app
 COPY . .
